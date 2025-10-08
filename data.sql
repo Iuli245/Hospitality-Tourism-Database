@@ -438,3 +438,36 @@ VALUES
 INSERT INTO Rezervari (id_rezervare, id_hotel, data_efectuare_rezervare, data_check_in, data_check_out, numar_adulti, numar_copii, numar_de_camere_rezervate, id_utilizator)
 VALUES    
 (25, 7, TO_DATE('2023-12-25', 'YYYY-MM-DD'), TO_DATE('2024-04-10', 'YYYY-MM-DD'), TO_DATE('2024-04-16', 'YYYY-MM-DD'), 2, 1, 1, 16);
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Insert sample Hotel restaurant
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES
+    (1, 1, 'Ocean View - Sea Breeze', 'Fructe de mare', '08:00-23:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES  
+    (2, 2, 'Alpine Delight - Mountain Peak', 'Tradițional alpin', '07:00-22:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES  
+    (3, 3, 'Sunset Grill - Coastal Serenity', 'Bucătărie mediteraneană', '09:00-00:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES   
+    (4, 4, 'Metropolitan Fusion - Urban Oasis', 'Internțională', '10:00-01:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES  
+    (5, 5, 'Garden Retreat - Countryside Elegance', 'Organică și locală', '08:30-22:30');  
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES
+    (6, 6, 'City Lights - Downtown Eats', 'Americană', '11:00-02:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES 
+    (7, 7, 'Cherry Blossom - Tranquil Gardens', 'Japoneză', '12:00-23:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES  
+    (8, 8, 'Mediterranean Breeze - Riviera Retreat', 'Bucătărie mediteraneană', '09:00-00:00');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES
+    (9, 9, 'Harbor Grille - Coastal Fusion', 'Fructe de mare', '08:30-22:30');
+INSERT INTO Restaurant_Hotel (id_restaurant, id_hotel, nume_restaurant, tip_bucatarie, interval_orar_de_functionare)
+VALUES 
+(10, 10, 'Royal Feast - Palace Elegance', 'Gastronomie regală', '07:00-23:00');
